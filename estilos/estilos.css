@@ -24,42 +24,57 @@ body {
     z-index: 0; 
 }
 
-.tituloBienvenida {
-    color: black;
-    position: absolute;
-    top: 15%;
-    left: 10%;
-}
-
-.textoBienvenida {
-    color: black;
-    position: absolute;
-    text-align: center;
-    top: 70%;
-    left: 27%;
-}
-
-.titulotecnologia {
-    text-align: center;
-}
-
-.tituloModelos {
-    margin-top: 2%;
-    text-align: center;
-}
-
 .card-tect, .card-tec, .textoFuturo, .diapositivaFinal {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.diapositivasTecno {
-    width: 90%;
-    height: 90%;
+.tituloBienvenida {
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: fit-content;
+    height: fit-content;
+    font-size: medium;
+}
+
+.textoBienvenida {
+    color: black;
+    position: absolute;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 35%;
+    margin-left: 8%;
+    width: 300px;
+    height: 200px;
+    font-size: small;
+}
+
+.tituloInicioFuturo {
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 300px;
+    height: 50px;
+    font-size: medium;
+}
+
+.textoInicioFuturo {
+    visibility: hidden;
+}
+
+.textoSecundarioFuturo {
+    color: white;
+    margin-top: 28%;
+    width: 250px;
+    height: 20px;
+    font-size: medium;
+}
+
+.textoFinalTecnologia {
+    font-size: medium;
 }
 
 footer {
@@ -70,9 +85,84 @@ footer {
 
 @media screen and (min-width:768px){
 
+    .tituloBienvenida {
+        color: black;
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        width: fit-content;
+        height: fit-content;
+        font-size: xx-large;
+    }
+    
+    .textoBienvenida {
+        color: black;
+        position: absolute;
+        text-align: center;
+        margin-top: 38%;
+        margin-left: 8%;
+        width: 700px;
+        height: 200px;
+        font-size: x-large;
+    }
+    
+    .tituloInicioFuturo {
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        width: 700px;
+        height: 200px;
+        font-size: xx-large;
+    }
+    
+    .textoSecundarioFuturo {
+        color: white;
+        margin-top: 23%;
+        width: 700px;
+        height: 200px;
+        font-size: xx-large;
+    }
+    
+    .textoFinalTecnologia {
+        font-size: x-large;
+    }
+
 }
 
 
 @media screen and (min-width:1024px){
+
+    .tituloBienvenida {
+        color: black;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
     
+    .textoBienvenida {
+        color: black;
+        position: absolute;
+        text-align: center;
+        top: 70%;
+        left: 27%;
+    }
+    
+    .titulotecnologia {
+        text-align: center;
+    }
+    
+    .tituloModelos {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .diapositivasTecno {
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
