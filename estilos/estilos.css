@@ -50,6 +50,10 @@ body {
     font-size: small;
 }
 
+.tituloModelos {
+    text-align: center;
+}
+
 .tituloInicioFuturo {
     color: white;
     position: absolute;
