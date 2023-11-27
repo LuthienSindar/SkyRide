@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
-
 body {
     font-family: 'Play', sans-serif;
     color: black;
@@ -57,19 +56,22 @@ body {
     top: 5%;
     left: 3%;
     width: 300px;
-    height: 50px;
+    height: 30px;
     font-size: medium;
 }
 
 .textoInicioFuturo {
-    visibility: hidden;
+    visibility: collapse;
+    width: 1px;
+    height: 1px;
 }
 
 .textoSecundarioFuturo {
     color: white;
-    margin-top: 28%;
+    position: absolute;
+    margin-top: 23%;
     width: 250px;
-    height: 20px;
+    height: 10px;
     font-size: medium;
 }
 
@@ -100,7 +102,7 @@ footer {
         position: absolute;
         text-align: center;
         margin-top: 38%;
-        margin-left: 8%;
+        margin-left: 4%;
         width: 700px;
         height: 200px;
         font-size: x-large;
@@ -118,7 +120,7 @@ footer {
     
     .textoSecundarioFuturo {
         color: white;
-        margin-top: 23%;
+        margin-top: 35%;
         width: 700px;
         height: 200px;
         font-size: xx-large;
@@ -136,33 +138,46 @@ footer {
     .tituloBienvenida {
         color: black;
         position: absolute;
-        top: 15%;
-        left: 10%;
+        top: 10%;
+        left: 3%;
+        width: fit-content;
+        height: fit-content;
+        font-size: xx-large;
     }
     
     .textoBienvenida {
         color: black;
         position: absolute;
         text-align: center;
-        top: 70%;
-        left: 27%;
+        margin-top: 38%;
+        margin-left: 25%;
+        width: 1000px;
+        height: 200px;
+        font-size: xx-large;
     }
     
-    .titulotecnologia {
-        text-align: center;
+    .tituloInicioFuturo {
+        display: visible;
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        width: 700px;
+        height: 200px;
+        font-size: xx-large;
     }
     
-    .tituloModelos {
-        margin-top: 2%;
-        text-align: center;
+    .textoSecundarioFuturo {
+        color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 700px;
+        height: 200px;
+        font-size: xx-large;
     }
-
-    .diapositivasTecno {
-        width: 90%;
-        height: 90%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    
+    .textoFinalTecnologia {
+        font-size: x-large;
     }
 
 }
