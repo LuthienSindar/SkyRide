@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+body {
+    font-family: 'Play', sans-serif;
+    color: black;
+    background-color: #DEDEDE;
+}
+
+.navegacion {
+    position: sticky;
+	top: 0;
+	width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diapositivaInicio, .card-group{
+    z-index: 0; 
+}
+
+.tituloBienvenida {
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.textoBienvenida {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 27%;
+}
+
+.titulotecnologia {
+    text-align: center;
+}
+
+.tituloModelos {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.card-tect, .card-tec, .textoFuturo, .diapositivaFinal {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diapositivasTecno {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:768px){
+
+}
+
+
+@media screen and (min-width:1024px){
+    
+}

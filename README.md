@@ -1,1 +1,3 @@
 # SkyRide
+## Descripción
+### Autor
